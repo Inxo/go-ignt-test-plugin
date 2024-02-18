@@ -2,11 +2,11 @@ package main
 
 import (
 	"bitbucket.org/nulljet/go_ignt_func_deps"
+	"bitbucket.org/nulljet/go_ignt_func_deps/functions"
 	"encoding/json"
 	"log"
 	"net/http"
 	"time"
-	"viads-cron-plugin/src/functions"
 )
 
 func Handle(params go_ignt_func_deps.ParamsInterface, _ *http.Request) go_ignt_func_deps.ResponseInterface {
